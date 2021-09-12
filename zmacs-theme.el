@@ -1,12 +1,12 @@
-(deftheme Witchmacs
+(deftheme zmacs
   "Created 2019-05-23.")
 
 (custom-theme-set-variables
- 'Witchmacs
+ 'zmacs
  '(ansi-color-names-vector ["#262626" "#FF6666" "#A6E22E" "#FFFF66" "#6666FF" "#FD5FF0" "#99CCFF" "#F1EFEE"]))
 
 (custom-theme-set-faces
- 'Witchmacs
+ 'zmacs
  '(font-lock-builtin-face ((t (:foreground "#FF6666" :weight normal))))
  '(font-lock-comment-delimiter-face ((((class color) (min-colors 257)) (:foreground "#75715E")) (((class color) (min-colors 89)) (:foreground "#8B8878"))))
  '(font-lock-comment-face ((((class color) (min-colors 257)) (:foreground "#75715E")) (((class color) (min-colors 89)) (:foreground "#8B8878"))))
@@ -109,4 +109,4 @@
  '(default ((t (:background "#262626" :foreground "#F8F8F2"))))
  '(company-tooltip-common ((t (:foreground "#FF6666")))))
 
-(provide-theme 'Witchmacs)
+(provide-theme 'zmacs)
